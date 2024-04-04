@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert' as convert;
 
 class PlacesService {
-  final key = 'AIzaSyCd2O_wiKsPKRUoocQDW535Eb7kzZGTwUg';
+  final key = 'my_key';
 
   Future<List<PlaceSearch>?> getAutocomplete(String search) async{
     if (search == ''){
